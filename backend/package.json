@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "node --watch server.js",
     "start": "node server.js",
-    "check": "node --check server.js"
+    "check": "node --check server.js",
+    "setup-cloud": "node setup-cloud.js",
+    "check-cloud": "node check-cloud.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
